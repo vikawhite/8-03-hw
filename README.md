@@ -4,23 +4,17 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. `results in the screenshots 1-6`
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
+
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![Скриншот 1](https://github.com/username/8-03-hw/blob/main/screenshots/1.png)
+![Скриншот 2](https://github.com/username/8-03-hw/blob/main/screenshots/2.png)
+![Скриншот 3](https://github.com/username/8-03-hw/blob/main/screenshots/3.png)
+![Скриншот 4](https://github.com/username/8-03-hw/blob/main/screenshots/4.png)
+![Скриншот 5](https://github.com/username/8-03-hw/blob/main/screenshots/5.png)
+![Скриншот 6](https://github.com/username/8-03-hw/blob/main/screenshots/6.png)`
 
 
 ---
