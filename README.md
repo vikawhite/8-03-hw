@@ -11,6 +11,7 @@
 ![Скриншот 4](https://github.com/vikawhite/8-03-hw/blob/main/runner/4.png)
 ![Скриншот 5](https://github.com/vikawhite/8-03-hw/blob/main/runner/5.png)
 ![Скриншот 6](https://github.com/vikawhite/8-03-hw/blob/main/runner/6.png)
+![Скриншот 6](https://github.com/vikawhite/8-03-hw/blob/main/runner/7.png)
 
 
 ---
