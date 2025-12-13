@@ -1,45 +1,44 @@
-# Домашнее задание к занятию "`8-03`" - `Trunova Vika`
+**# Домашнее задание к занятию "`8-03`" - `Trunova Vika`**
 
-### Задание 1
+<ins>## Задание 1 </ins>
 
-`Приведите ответ в свободной форме........`
-
-1. `results in the screenshots 1-6`
+Результаты приложены в скриншотах 1-6, в 6 представлена запись runner
 
 
-
-`При необходимости прикрепитe сюда скриншоты
-![Скриншот 1](https://github.com/username/8-03-hw/blob/main/screenshots/1.png)
-![Скриншот 2](https://github.com/username/8-03-hw/blob/main/screenshots/2.png)
-![Скриншот 3](https://github.com/username/8-03-hw/blob/main/screenshots/3.png)
-![Скриншот 4](https://github.com/username/8-03-hw/blob/main/screenshots/4.png)
-![Скриншот 5](https://github.com/username/8-03-hw/blob/main/screenshots/5.png)
-![Скриншот 6](https://github.com/username/8-03-hw/blob/main/screenshots/6.png)`
+![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/runner/1.png)
+![Скриншот 2](https://github.com/vikawhite/8-03-hw/blob/main/runner/2.png)
+![Скриншот 3](https://github.com/vikawhite/8-03-hw/blob/main/runner/3.png)
+![Скриншот 4](https://github.com/vikawhite/8-03-hw/blob/main/runner/4.png)
+![Скриншот 5](https://github.com/vikawhite/8-03-hw/blob/main/runner/5.png)
+![Скриншот 6](https://github.com/vikawhite/8-03-hw/blob/main/runner/6.png)
 
 
 ---
 
-### Задание 2
+<ins>## Задание 2 </ins>
 
-`Приведите ответ в свободной форме........`
+#Содержание моего файла  gitlab-ci.yml
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+stages:
+  - test
+  - build
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
+test:
+  stage: test
+  image: golang:1.17
+  script: 
+   - go test .
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+build:
+  stage: build
+  image: docker:latest
+  script:
+   - docker build .
+
+
+![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/01.png)
+![Скриншот 2](https://github.com/vikawhite/8-03-hw/blob/main/3.png)
+![Скриншот 3](https://github.com/vikawhite/8-03-hw/blob/main/2.png)
 
 
 ---
