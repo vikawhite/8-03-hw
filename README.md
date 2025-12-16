@@ -3,10 +3,10 @@
 <ins>## Задание 1 </ins>
 
   apt update
-  apt install postgresql
-  wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
-  dpkg -i zabbix-release_latest_6.0+debian11_all.deb
-  ls -la /etc/apt/sources.list.d/  проверка наличия файлов - есть
+   apt install postgresql
+   wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
+   dpkg -i zabbix-release_latest_6.0+debian11_all.deb
+   ls -la /etc/apt/sources.list.d/  проверка наличия файлов - есть
 #apt update   
 #apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts
 #systemctl status zabbix-server.service проверка статуса - inactive
