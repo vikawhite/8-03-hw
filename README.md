@@ -1,4 +1,4 @@
-**# Домашнее задание к занятию "`8-03`" - `Trunova Vika`**
+**# Домашнее задание к занятию "`ZABBIX`" - `Trunova Vika`**
 
 <ins>## Задание 1 </ins>
 
@@ -22,7 +22,7 @@
    http://158.160.55.249/zabbix   
 
 
-![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/runner/1.png)
+![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/loginzabbixweb.png)
 
 
 
@@ -41,9 +41,11 @@
    systemctl restart zabbix-agent.service  
    systemctl status zabbix-agent.service  статус active(running)  
 
-![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/01.png)
-![Скриншот 2](https://github.com/vikawhite/8-03-hw/blob/main/3.png)
-![Скриншот 3](https://github.com/vikawhite/8-03-hw/blob/main/2.png)
+![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/hosts.png)
+![Скриншот 2](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/latestdata.png)
+![Скриншот 3](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/work.png)
+![Скриншот 4](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/graphsdebian.png)
+![Скриншот 5](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/graphsVM123.png)
 
 
 ---
