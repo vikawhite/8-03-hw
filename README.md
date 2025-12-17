@@ -2,52 +2,31 @@
 
 <ins>## Задание 1 </ins>
 
-  apt update  
-   apt install postgresql  
-   wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb  
-   dpkg -i zabbix-release_latest_6.0+debian11_all.deb  
-   ls -la /etc/apt/sources.list.d/  проверка наличия файлов - есть  
-   apt update     
-   apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts  
-   systemctl status zabbix-server.service проверка статуса - inactive  
-   su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD
-'\'123456789\'';"'  
-   su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'  
-   zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql Zabbix  
-   sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf  
-   systemctl restart zabbix-server apache2  
-   systemctl enable zabbix-server apache2  
-   systemctl status zabbix-server.service статус active(running)  
-   ip a    
-   http://158.160.55.249/zabbix   
+   Создайте свой шаблон, в котором будут элементы данных, мониторящие загрузку CPU и RAM хоста  
+   Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»  
 
+![Скриншот 1]()
 
-![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/loginzabbixweb.png)
+---
+
+<ins>## Задание 2 -3  </ins>
+
+   Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
+   Результат данного задания сдавайте вместе с заданием 3  
+   Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения  
+
+![Скриншот 1]()
 
 
 
 ---
 
-<ins>## Задание 2 </ins>
+<ins>## Задание 4  </ins>
 
-   apt install zabbix-agent  
-   systemctl status zabbix-agent.service статус active(running)  
-   find / -name zabbix_agentd.conf  
-   vim /etc/abbi/zabbix_agentd.conf  
-   systemctl restart zabbix-agent.service  
-   systemctl status zabbix-agent.service  статус active(running)  
-   добавить 2вм windows Server=x.x.x.x  
-   vim /etc/abbi/zabbix_agentd.conf  
-   systemctl restart zabbix-agent.service  
-   systemctl status zabbix-agent.service  статус active(running)  
+   Создайте свой кастомный дашборд.  
 
-![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/hosts.png)
-![Скриншот 2](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/latestdata.png)
-![Скриншот 3](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/work.png)
-![Скриншот 4](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/graphsdebian.png)
-![Скриншот 5](https://github.com/vikawhite/8-03-hw/blob/main/zabbix/graphsVM123.png)
+![Скриншот 1]()
 
 
----
 
 
