@@ -9,7 +9,7 @@
 
 
 
-![Скриншот 1]()
+![Скриншот 1](https://github.com/vikawhite/8-03-hw/blob/main/haproxy.nginx/1.png)
 
 ---
 
