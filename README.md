@@ -7,14 +7,14 @@
 Настройте балансировку Round-robin на 4 уровне.
 На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
-##Конфиг
-global
-        log /dev/log    local0
-        log /dev/log    local1 notice
-        chroot /var/lib/haproxy
-        stats socket /run/haproxy/admin.sock mode 660 level admin expose-fd listeners
-        stats timeout 30s
-        user haproxy
+##Конфиг    
+global    
+        log /dev/log    local0    
+        log /dev/log    local1 notice    
+        chroot /var/lib/haproxy    
+        stats socket /run/haproxy/admin.sock mode 660 level admin expose-fd listeners    
+        stats timeout 30s     
+        user haproxy     
         group haproxy
         daemon
 
