@@ -1,4 +1,4 @@
-#### Домашнее задание к занятию "`Кеширование Redis/memcached`" - `Trunova Vika`
+#### Домашнее задание к занятию "`ELK`" - `Trunova Vika`
 
 ### Задание 1. Elasticsearch
 Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.    
